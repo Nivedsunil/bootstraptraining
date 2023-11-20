@@ -1,0 +1,72 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.parallax-one {
+    
+    text-align: center;
+    color: aliceblue;
+    padding-top: 200px;
+    padding-bottom: 210px;
+    background-image: url(../images/bg-1.jpg);
+   
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: bottom ;
+}
+.parallax-one h2{
+    font-size: 70px;
+    font-weight: 500;
+    font-family: serif;
+ 
+    
+}      
+.parallax-two{
+    text-align: center;
+    color: aliceblue;
+    background: url(../images/bg-2.jpg);
+    padding-top: 80px;
+    padding-bottom: 100px;
+   
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    
+     
+
+
+
+}
+.parallax-two h2{
+    
+    font-size: 40px;
+    font-weight: 500;
+    font-family: serif;
+ 
+    
+} 
+.parallax-two p{
+    
+    font-size: 15px;
+    font-weight: 500;
+    font-family: serif;
+    
+ 
+    
+} 
+.parallax-three {
+    
+    text-align: center;
+    color: aliceblue;
+    padding-top: 260px;
+    padding-bottom: 200px;
+    background-image: url(../images/bg-3.jpg);
+    background-attachment: fixed; 
+   
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: bottom ;
+         
+}     
