@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
 } */
-
+ .navbar {
+    background-color: rgba(0, 0, 0, 0.831);
+    
+    
+ }
 .parallax-one {
     
     text-align: center;
@@ -16,6 +20,7 @@
     background-repeat: no-repeat;
     background-position: bottom ;
 }
+
 .parallax-one h2{
     font-size: 70px;
     font-weight: 500;
@@ -24,21 +29,20 @@
     
 }      
 .parallax-two{
+    margin-top: 50px;
     text-align: center;
     color: aliceblue;
     background: url(../images/bg-2.jpg);
     padding-top: 80px;
     padding-bottom: 100px;
-   
+    background-size: cover; 
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
     
-     
-
-
-
 }
+
+
 .parallax-two h2{
     
     font-size: 40px;
@@ -57,11 +61,13 @@
     
 } 
 .parallax-three {
-    
+   
+    margin-top: 50px;
     text-align: center;
     color: aliceblue;
-    padding-top: 260px;
-    padding-bottom: 200px;
+    padding-top: 160px;
+    padding-bottom: 100px;
+    
     background-image: url(../images/bg-3.jpg);
     background-attachment: fixed; 
    
@@ -70,3 +76,7 @@
     background-position: bottom ;
          
 }     
+.parallax-three h2{
+  font-weight: 600;
+  font-family: serif;
+}
